@@ -1,10 +1,10 @@
-= Getting and Cleaning Data Assignment #1 =
+# Getting and Cleaning Data Assignment #1
 
-== Overview == 
+## Overview
 
 This assignment extracted data from a number of different files and combined then into single, tidy dataset. This code book lists all the variables found in the new dataset.
 
-== Variables == 
+## Variables
 
 subject : A range of integers representing each subject in the study.
 activity : The activity that the subject was performing.

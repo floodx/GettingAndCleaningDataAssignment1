@@ -1,10 +1,10 @@
-= Getting and Cleaning Data Assignment #1 =
+# Getting and Cleaning Data Assignment #1
 
-== Overview == 
+## Overview
 
 This assignment extracted data from a number of different files and combined then into single, tidy dataset. This README describes how this was accomplished.
 
-== Methodology ==
+## Methodology
 
 * Relevant data was read in using read.table
 * Data from ./train and ./test were combined into a single data-frame
