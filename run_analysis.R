@@ -46,7 +46,7 @@ names(subject) <- "subject"
 clean <- cbind(subject, y, X)
 
 # Write first dataset to file
-write.table(clean, "tidy_data.txt")
+write.table(clean, "tidy_data.txt", row.name=FALSE)
 
 # Prepare second dataset
 library(data.table)
@@ -54,5 +54,5 @@ cleanDT <- data.table(clean)
 calculatedData<- cleanDT[, lapply(.SD, mean), by=c("subject", "activity")]
 
 # Write second dataset to file
-write.table(calculatedData, "tidy_data_means.txt")
+write.table(calculatedData, "tidy_data_means.txt", row.name=FALSE)
 
